@@ -38,9 +38,9 @@ function GenerateForm {
 
 
 	# Defining drop down box
-	$boxDropDown = new-object System.Windows.Forms.ComboBox
-	$boxDropDown.Location = new-object System.Drawing.Size(23,69)
-	$boxDropDown.Size = new-object System.Drawing.Size(130,30)
+	$boxDropDown = New-Object System.Windows.Forms.ComboBox
+	$boxDropDown.Location = '23,69'
+	$boxDropDown.Size = '130,30'
 	
 	# Assigning items to drop down box
 	ForEach ($Item in $dropDownArray) {
