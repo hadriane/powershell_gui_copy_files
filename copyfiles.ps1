@@ -21,13 +21,13 @@ function GenerateForm {
 	$labelSourceFolder = New-Object System.Windows.Forms.Label
 	$labelSourceFolder.Location = '23,23'
 	$labelSourceFolder.Size = '300,23'
-	$labelSourceFolder.Text = 'Source folder'
+	$labelSourceFolder.Text = 'Source Folder'
 	
 	# Defining source folder text box
 	$textBoxSourceFolder = New-Object System.Windows.Forms.TextBox
 	$textBoxSourceFolder.Location = '23,46'
 	$textBoxSourceFolder.Size = '300,23'
-	$textBoxSourceFolder.Text = 'Select the source folder'
+	$textBoxSourceFolder.Text = 'Select source folder'
 	
 	# Defining source folder select button 
 	$buttonSelectSourceFolder = New-Object System.Windows.Forms.Button
@@ -65,7 +65,7 @@ function GenerateForm {
 	$labelDestinationFolder = New-Object System.Windows.Forms.Label
 	$labelDestinationFolder.Location = '23,161'
 	$labelDestinationFolder.Size = '300,23'
-	$labelDestinationFolder.Text = 'Destination folder'
+	$labelDestinationFolder.Text = 'Destination Folder'
 	
 	# Defining destination folder text box
 	$textBoxDestinationFolder = New-Object System.Windows.Forms.TextBox
