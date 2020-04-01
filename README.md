@@ -6,7 +6,7 @@ Filter files of a particular extension from a source folder and copy it to a des
 
 ### Usage
 
-> ***WARNING** This script will overwrite files of the same name in the destiantion folder
+> ***WARNING** This script will overwrite files of the same name in the destiantion folder*
 
 1. Download the [script](https://github.com/hadriane/powershell_gui_copy_files/blob/master/copyfiles.ps1) to your desktop
 2. Right-click on the script and select **Run with Powershell**
